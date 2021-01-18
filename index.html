@@ -1,37 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penguin Fashion</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <title>Penguin Fashion</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <header>
-        <nav class="container-fluid  bg-white">
-            <div class="row ">
-                <div class="col-lg-6">
-                    <img class="w-100"src="images/Logo, Icon/Group 33072.png">
-                </div>
-                <div class="col-lg-6 navbar-nav">
-                    <ul class="navItem">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Work</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container nav-title logo">
+        <img src="images/Logo, Icon/Group 33072.png">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav item-all">
+            <a class="nav-link " aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Product</a>
+            <a class="nav-link" href="#">About us</a>
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container-fluid body-clr">
+      <div class="container">
+        <div class="row  d-flex justify-content-center align-items-center p-5">
+          <div class="col-lg-6  col-md-6  col-sm-12 left-info">
+            <h1 class=" font-weight-bolder ">BE THE PENGUINS</h1>
+            <h1 class="font-weight-bolder">OF WINTER</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            <button type="button" class="btn btn-success pr-2 "><i class="fas fa-shopping-cart"></i>BUY NOW</button>
+          </div>
+          <div class="col-lg-6 col-md-6  col-sm-12 right-img">
+            <img class="w-100" src="images/profile1.png">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container py-5 dress  ">
+      <h3>WOMAN JACKET</h3>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-container ">
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 card-item ">
+            <img src="images/image/jacket1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Yellow Coat Jacket</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
-        </nav>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 d-flex justify-content-center card-item">
+            <img src="images/image/jacket2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Ladies Jacket</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 d-flex justify-content-center card-item">
+            <img src="images/image/jacket3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Woman Leather Jacket</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </header>
+    <section class="container py-5 dress  ">
+      <h3>MAN JACKET</h3>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-container ">
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 card-item ">
+            <img src="images/image/men1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Snowboard Jacket Mens</h4>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, officiis!</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 d-flex justify-content-center card-item">
+            <img src="images/image/men2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Man Leather Jackets</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ratione.</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 d-flex justify-content-center card-item">
+            <img src="images/image/men3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Man Casual Jackets</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, distinctio!</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <main>
-    </main>
+    <section class="container py-5 dress  ">
+      <h3>MAN JACKET</h3>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 card-container ">
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 card-item ">
+            <img src="images/image/men1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Snowboard Jacket Mens</h4>
+              <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex, officiis!</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 d-flex justify-content-center card-item">
+            <img src="images/image/men2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Man Leather Jackets</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, ratione.</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+        <div class="col d-flex justify-content-center ">
+          <div class="card h-100 d-flex justify-content-center card-item">
+            <img src="images/image/men3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title">Man Casual Jackets</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, distinctio!</p>
+            </div>
+            <div class="row card-foot d-flex">
+              <span class="col"> $234 </span>
+              <button type="button" class="btn btn-success col col-md-6"><i class="fas fa-shopping-cart"></i>Buy Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <footer>
-    </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <section class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 itemWrapper">
+          <div class="container overflow-hidden">
+            <div class="row gy-5 ">
+              <div class="col-12 logoSize ">
+                <div class="p-3 border bg-light d-flex justify-content-end align-items-center">
+                  <img  src="images/Logo, Icon/image 12.png">
+                  <div>
+                    <h4>Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 logoSize ">
+                <div class="p-3 border bg-light d-flex justify-content-end align-items-center">
+                  <img  src="images/Logo, Icon/image 13.png">
+                  <div>
+                    <h4>Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 logoSize ">
+                <div class="p-3 border bg-light d-flex justify-content-end align-items-center">
+                  <img  src="images/Logo, Icon/image 14.png">
+                  <div>
+                    <h4>Find the Perfect Fit</h4>
+                    <p>Everybody is different, which is why we offer styles for every body.</p>
+                    </div>
+                </div>
+              </div>       
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm12 image-sizing d-flex justify-content-center align-items-center">
+          <img class="image-fluid" src="images/Logo, Icon/XMLID 1.png">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center mt-5 bg-success p-3">
+    <small>©2020 Penguin Fashion. All rights reserved. Torab,Bangladesh</small>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
